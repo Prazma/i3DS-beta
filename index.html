@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+    <head>
+        <title>i3DS - beta</title>
+        <meta name="viewport" content="width=device-width, user-scalable=no">
+        <link rel="stylesheet" href="css/nds.css">
+    </head>
+    <body>
+        <div class="controlPort">
+            <div class="ws"></div>
+            <canvas id="topScreen"></canvas>
+            <canvas id="bottomScreen"></canvas>
+            <div id="controlRck">
+                <div id="aBtn">A</div>
+                <div id="bBtn">B</div>
+                <div id="xBtn">X</div>
+                <div id="yBtn">Y</div>
+                <div id="rightArrow"></div>
+                <div id="leftArrow"></div>
+                <div id="upArrow"></div>
+                <div id="downArrow"></div>
+                <div id="selectBtn">Select</div>
+                <div id="startBtn">Start</div>
+                <label class="fileContainer" id="uploadRom">
+                    Select Rom
+                    <input type="file"/>
+                </label>
+            </div>
+        </div>
+        <script src="js/3dsUI.js"></script>
+        <script src="js/emu/3ds.js"></script>
+    </body>
+</html>
