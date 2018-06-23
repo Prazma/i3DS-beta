@@ -171,7 +171,6 @@ body {
     overflow: hidden;
     position: relative;
 }
-
 .fileContainer [type=file] {
     cursor: inherit;
     display: block;
